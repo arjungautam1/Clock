@@ -1,0 +1,68 @@
+/* @author :Arjun Gautam */
+/* layout */
+html{
+    background-color: #74e3ff1c;
+}
+.main{
+    display:flex;
+    /* 	Displays an element as a block-level flex container */
+    padding: 2em;
+    /* Relative to the font-size of the element (2em means 2 times the size of the current font) */
+    height: 90vh;
+    /* Relative to 1% of the height of the viewport* */
+    justify-content: center;
+    align-items: middle;
+}
+.clockbox,
+#clock
+{
+    width: 100%;
+}
+
+/* clock styles */
+.circle{
+    fill:none;
+    stroke:#C7BFBE;
+    stroke-width: 15;
+    stroke-miterlimit: 10;
+}
+.mid-circle{
+    fill:#2F2928;
+}
+.hour-marks{
+    fill:none;
+    stroke:#2F2928;
+    stroke-width:9;
+    stroke-miterlimit: 10;
+
+}
+.hour-arm{
+    fill: none;
+    stroke:#2F2928;
+    stroke-width: 15;
+    stroke-miterlimit: 10;
+
+}
+.minute-arm{
+    fill:none;
+    stroke:#2F2928;
+    stroke-width: 11;
+    stroke-miterlimit: 10;
+
+}
+.second-arm{
+    fill:none;
+    stroke:#2F2928;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+}
+.sizing-box{
+    fill:none;
+}
+#hour,
+#minute,
+#second{
+    transform-origin :300px 300px;
+    /* transition:transform .5s ease-in-out;*/    /*This will make and animation instead od tik tik on the clock */
+    /* for animation of clock  */
+}
