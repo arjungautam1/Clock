@@ -6,9 +6,9 @@ html{
 .main{
     display:flex;
     /* 	Displays an element as a block-level flex container */
-    padding: 2em;
+    padding: 1em;
     /* Relative to the font-size of the element (2em means 2 times the size of the current font) */
-    height: 90vh;
+    height: 60vh;
     /* Relative to 1% of the height of the viewport* */
     justify-content: center;
     align-items: middle;
@@ -70,25 +70,25 @@ html{
 
 .clock{
     background-color: black;
-    position: absolute;;
-    top:50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(100%);
-    color:white;
-    font-size: 70px;
-    border:5px solid #ccc;
-    padding: 0px 5px 0px 5px;
+    color: white;
+    font-size: 45px;
+    border: 5px solid #ccc;
+    padding: 12px 5px 10px 5px;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 0em;
 }
 .info{
     background-color: black;
-    position: absolute;;
-    top:50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(700%);
-    color:white;
-    font-size: 40px;
-    border:5px solid #ccc;
-    padding: 0px 5px 0px 5px;
+    color: white;
+    font-size: 35px;
+    border: 5px solid #ccc;
+    padding: 12px 5px 10px 5px;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 1em;
 }
 .laser{
 position: absolute;
